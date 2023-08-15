@@ -1,0 +1,35 @@
+body {
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -200px; /*negative half the width */
+  width: 400px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main__container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+  height: 50vh;
+}
+
+.result__container {
+  text-align: center;
+  background-color: hsl(246, 63%, 12%);
+  color: white;
+  border-radius: 1rem;
+}
